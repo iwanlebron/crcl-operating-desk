@@ -1,0 +1,40 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "CRCL 经营台",
+      "hasCanvas": false,
+      "bodyTextLen": 2426,
+      "bodyTextHash": "e0e51b1a350afeb8727323011cf4572fe06042f231465746a77c28d6d6a590db",
+      "bodyTextPrefix": "NYSE · CIRCLE INTERNET GROUP CRCL 经营台 休市 · 最近成交 美东 30/10 16:00 刷",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/lines-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "CRCL 经营台",
+      "hasCanvas": false,
+      "bodyTextLen": 2288,
+      "bodyTextHash": "7dcef135b3f48e4df12e6d0ac1f20da63d4564784506236ecbda6c599fadd3dd",
+      "bodyTextPrefix": "NYSE · CIRCLE INTERNET GROUP CRCL 经营台 休市 · 最近成交 美东 30/10 16:00 刷",
+      "horizontalOverflow": false,
+      "consoleErrors": [
+        "A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:\n\n- A server/client branch `if (typeof window !== 'undefined')`.\n- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.\n- Date formatting in a user's locale which doesn't match the server.\n- External changing data without sending a snapshot of it along with the HTML.\n- Invalid HTML tag nesting.\n\nIt can also happen if the client has a browser extension installed which messes with the HTML before React loaded.\n\n%s%s https://react.dev/link/hydration-mismatch \n\n  ...\n    <MatchImpl routeId=\"/\">\n      <MatchView router={{...}} match={{id:\"//\",ssr:true, ...}}>\n        <CatchBoundary getResetKey={function getResetKey} errorComponent={function AppErrorComponent} ...>\n          <MatchInnerImpl match={{id:\"//\",ssr:true, ...}}>\n            <Lazy>\n              <Home>\n                <Desk initial={{ok:true,error:null, ...}}>\n                  <main className=\"mx-auto mi...\">\n                    <header>\n                    <section>\n                    <section>\n                    <section className=\"mt-8\">\n                      <h2>\n                      <p>\n                      <div>\n                      <div className=\"mt-4 grid ...\">\n                        <article>\n                        <article>\n                        <article className=\"rounded-ca...\">\n                          <p>\n                          <h3>\n                          <p>\n                          <dl>\n                          <Slider label=\"假设净抽成\" hint=\"默认 0。季报其他收...\" min={0} max={100} step={1} value={0} ...>\n                            <label className=\"mt-3 block\">\n                              <span>\n                              <input\n                                type=\"range\"\n                                min={0}\n                                max={100}\n                                step={1}\n                                value={0}\n                                onChange={function onChange}\n                                className=\"w-full\"\n-                               style={{caret-color:\"transparent\"}}\n                              >\n                              ...\n                          ...\n                      ...\n                    ...\n"
+      ],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/lines-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [
+    "BRAND NOTE: no custom public/og.jpg — the platform will serve the og.grok.me placeholder. Custom cards are the default for games of every kind (DOM board/word games included), whimsical apps, creative tools, and brand-forward pages — only plain utilities (converters, CRUD trackers, admin dashboards) keep the placeholder. If this app is not a plain utility, finish the brand-asset pass per /workspace/.grok/skills/og/SKILL.md."
+  ],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/lines-preview.json"
+}
